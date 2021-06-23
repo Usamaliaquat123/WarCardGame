@@ -25,17 +25,29 @@
                                 <rect key="frame" x="146" y="54" width="122" height="67"/>
                                 <imageReference key="image" image="logo"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="RVb-sL-3PN">
-                                <rect key="frame" x="107" y="285" width="270" height="170"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="97" translatesAutoresizingMaskIntoConstraints="NO" id="ALp-Qe-lOP">
+                                <rect key="frame" x="107" y="285" width="270" height="312"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oIU-Ng-z9a">
-                                        <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
-                                        <imageReference key="image" image="card6"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ok7-FP-GA7">
-                                        <rect key="frame" x="150" y="0.0" width="120" height="170"/>
-                                        <imageReference key="image" image="card10"/>
-                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="RVb-sL-3PN">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="170"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oIU-Ng-z9a">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
+                                                <imageReference key="image" image="card6"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ok7-FP-GA7">
+                                                <rect key="frame" x="150" y="0.0" width="120" height="170"/>
+                                                <imageReference key="image" image="card10"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpZ-rm-gVT">
+                                        <rect key="frame" x="0.0" y="267" width="270" height="45"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <imageReference key="image" image="dealbutton"/>
+                                        </buttonConfiguration>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -60,6 +72,7 @@
         <image name="background" width="414" height="896"/>
         <image name="card10" width="120" height="170"/>
         <image name="card6" width="120" height="170"/>
+        <image name="dealbutton" width="82" height="31"/>
         <image name="logo" width="122" height="67"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
