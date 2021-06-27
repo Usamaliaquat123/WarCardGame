@@ -1,3 +1,3 @@
 # WarCardGame
 
-There is only UIKit
+There is only UIKit.
