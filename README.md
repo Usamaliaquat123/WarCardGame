@@ -1,3 +1,3 @@
 # WarCardGame
 
-There is only UIKit.
+Здесь только UI (для обучения UIKit)
