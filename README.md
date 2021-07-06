@@ -13,6 +13,8 @@ You need to turn over the cards one by one to find the same cards. When you **fi
 * UIKit
 * MVVM
 
+## Screenshots
+
 ## Requirements
 * iOS 14.2
 * Xcode 12.0
