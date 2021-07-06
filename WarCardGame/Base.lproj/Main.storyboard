@@ -19,7 +19,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p59-vp-oDK">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                                <imageReference key="image" image="background"/>
+                                <imageReference key="image" image="Background"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NtE-MM-1GQ">
                                 <rect key="frame" x="134" y="54" width="122" height="67"/>
@@ -52,6 +52,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <imageReference key="image" image="dealbutton"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="dealTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hKr-jV-ZV7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=compact" spacing="20"/>
@@ -110,6 +113,12 @@
                             </constraint>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="oIU-Ng-z9a" id="53h-YK-fCu"/>
+                        <outlet property="leftScoreLabel" destination="Ark-jJ-8Xv" id="jz6-ps-uM2"/>
+                        <outlet property="rightImageView" destination="Ok7-FP-GA7" id="E5m-R1-OaZ"/>
+                        <outlet property="rightScoreLabel" destination="3xC-QL-o2p" id="p4n-Zd-cCM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -117,7 +126,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="414" height="896"/>
+        <image name="Background" width="414" height="896"/>
         <image name="card10" width="120" height="170"/>
         <image name="card12" width="120" height="170"/>
         <image name="dealbutton" width="81.666664123535156" height="31"/>
